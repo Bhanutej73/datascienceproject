@@ -4,7 +4,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
-project_name="datascience-project"
+project_name="datascienceproject"
 
 list_of_files=[
     ".github/workflows/.gitkeep",
@@ -41,4 +41,4 @@ for filepath in list_of_files:
             logging.info(f"Creating empty file: {filename}")
 
     else:
-        logging.ingo(f"{filename} is already present")
+        logging.info(f"{filename} is already present")
